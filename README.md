@@ -28,3 +28,24 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000
+
+Usage
+Create a New Note: Click the "Add Note" button to create a new sticky note and add content.
+Edit a Note: Click on any existing note to edit its content.
+Delete a Note: Click the delete icon on a note to remove it.
+Persistent Notes: Your notes will automatically be saved in the browser's local storage, so they remain even after a page refresh.
+Customization
+Change Note Colors: Add more customization options by allowing users to change the background color of each note.
+Reorder Notes: Implement drag-and-drop functionality for reordering notes.
+Cloud Sync (Optional): Integrate cloud storage (e.g., Firebase) to sync notes across devices.
+Example
+When you open the app, you can:
+
+Create sticky notes by typing in a note form.
+Edit and delete notes as needed.
+Your notes will remain saved between sessions via local storage.
+Dependencies
+React: Frontend framework for building the UI.
+LocalStorage API: For persisting notes between page reloads.
+CSS Modules or Styled Components: For styling the sticky notes.
+
