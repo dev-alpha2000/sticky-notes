@@ -7,4 +7,24 @@ Edit Notes: Users can update the content of existing notes.
 Delete Notes: Allows users to delete notes they no longer need.
 Persistent Storage: Saves notes to local storage so that they persist between page reloads.
 Responsive Design: Works seamlessly on mobile, tablet, and desktop devices.
-Project Structure
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/sticky-notes-app.git
+cd sticky-notes-app
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000
